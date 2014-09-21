@@ -1,4 +1,15 @@
 {
+  "excuses": [
+    "but that requires <%= _.sample(nouns) %>",
+    "I have to help my <%= _.sample(people) %> <%= _.sample(verbs) %>",
+    "I'm sick with <%= _.sample(illnesses) %>",
+    "my <%= _.sample([].concat(people, pets)) %> is sick",
+    "I have <%= _.sample(illnesses) %>",
+    "I'm <%= _.sample(adjectives) %>",
+    "my <%= _.sample(people) %> is coming into town",
+    "I need to <%= _.sample(verbs) %>",
+    "I have to pick up my <%= _.sample(people) %>"
+  ],
   "nouns": [
     "effort",
     "an in depth knowledge of Latin",
@@ -20,7 +31,7 @@
     "boyfriend",
     "girlfriend",
     "family",
-    "roommate" 
+    "roommate"
   ],
   "pets": [
     "dog",
