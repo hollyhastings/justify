@@ -4,9 +4,6 @@
 
 Justify is a web application that randomly generates excuses to get out of unwanted circumstances.
 
-## Screenshot
-![Justify screenshot](img/screenshot.png)
-
 ## Ideas 
 
  
@@ -34,3 +31,6 @@ Extra
 
 - Calendar to show excuses for certain days/times
 - Rate excuses as good or bad
+
+## Screenshot
+![Justify screenshot](img/screenshot.png)
