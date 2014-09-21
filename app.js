@@ -11,7 +11,7 @@ app.controller('JustifyController', function ($scope, $http) {
   $http.get('data.json').success(function (data) {
     // Chooses a new random noun
     $scope.generate = function () {
-      $scope.excuse = _.template(_.sample(data.excuses))(data);
+      $scope.excuse = _.template(_.sample(data.excuses).string)(data);
     };
 
     $scope.generate();

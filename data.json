@@ -1,14 +1,47 @@
 {
   "excuses": [
-    "but that requires <%= _.sample(nouns) %>",
-    "I have to help my <%= _.sample(people) %> <%= _.sample(verbs) %>",
-    "I'm sick with <%= _.sample(illnesses) %>",
-    "my <%= _.sample([].concat(people, pets)) %> is sick",
-    "I have <%= _.sample(illnesses) %>",
-    "I'm <%= _.sample(adjectives) %>",
-    "my <%= _.sample(people) %> is coming into town",
-    "I need to <%= _.sample(verbs) %>",
-    "I have to pick up my <%= _.sample(people) %>"
+    {
+        "string": "that requires <%= _.sample(nouns) %>",
+        "requirements": ["nouns"]
+    },
+    {
+        "string": "I have to help my <%= _.sample(people) %> <%= _.sample(verbs) %>",
+        "requirements": [
+            "people",
+            "verbs"
+        ]
+    },
+    {
+        "string": "I'm sick with <%= _.sample(illnesses) %>",
+        "requirements": ["illnesses"]
+    },
+    {
+        "string": "my <%= _.sample([].concat(people, pets)) %> is sick",
+        "requirements": [
+            "people",
+            "pets"
+        ]
+    },
+    {
+        "string": "I have <%= _.sample(illnesses) %>",
+        "requirements": ["illnesses"]
+    },
+    {
+        "string": "I'm <%= _.sample(adjectives) %>",
+        "requirements": ["adjectives"]
+    },
+    {
+        "string": "my <%= _.sample(people) %> is coming into town",
+        "requirements": ["people"]
+    },
+    {
+        "string": "I need to <%= _.sample(verbs) %>",
+        "requirements": ["verbs"]
+    },
+    {
+        "string": "I have to pick up my <%= _.sample(people) %>",
+        "requirements": ["people"]
+    }
   ],
   "nouns": [
     "effort",
