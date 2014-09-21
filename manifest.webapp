@@ -1,7 +1,7 @@
 {
   "name": "Justify",
   "description": "Randomly generates excuses to get out of unwanted circumstances.",
-  "launch_path": "/justify/index.html",
+  "launch_path": "http://hollyhastings.me/justify/index.html",
   "developer": {
     "name": "Holly Hastings",
     "url": "http://hollyhastings.me/"
