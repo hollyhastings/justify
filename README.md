@@ -1,6 +1,11 @@
 # [Justify](http://hollyhastings.me/justify/)
 
+![Justify icon](img/icon.png)
+
 Justify is a web application that randomly generates excuses to get out of unwanted circumstances.
+
+## Screenshot
+![Justify screenshot](img/screenshot.png)
 
 ## Ideas 
 
