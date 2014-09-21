@@ -1,4 +1,4 @@
-# Justify
+# [Justify](http://hollyhastings.me/justify/)
 
 Justify is a web application that randomly generates excuses to get out of unwanted circumstances.
 
