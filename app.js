@@ -16,7 +16,10 @@ app.controller('JustifyController', function ($scope, $http) {
         $scope.excuseHistory.unshift($scope.currentExcuse);
       }
 
-      $scope.currentExcuse = _.template(_.sample(data.excuses).string)(data);
+      $scope.currentExcuse = {
+        text: _.template(_.sample(data.excuses).string)(data),
+        date: new Date()
+      };
     };
 
     $scope.generate();
