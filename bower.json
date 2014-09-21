@@ -1,0 +1,7 @@
+{
+  "name": "justify",
+  "private": true,
+  "dependencies": {
+    "angular-material": "~0.0.3"
+  }
+}
