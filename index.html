@@ -36,7 +36,7 @@
       <div class="panel-heading">History</div>
       <ul class="list-group">
         <li class="list-group-item" ng-repeat="excuse in excuseHistory">
-          <p>I would <strong ng-bind="situation || defaultSituation"></strong>, but <strong ng-bind="excuse.text"></strong>.</p>
+          <p>I would <strong ng-bind="excuse.situation"></strong>, but <strong ng-bind="excuse.text"></strong>.</p>
           <small ng-bind="excuse.date | date : 'medium'"></small>
         </li>
       </ul>

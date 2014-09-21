@@ -13,6 +13,7 @@ app.controller('JustifyController', function ($scope, $http) {
     // Chooses a new random noun
     $scope.generate = function () {
       if ($scope.currentExcuse) {
+        $scope.currentExcuse.situation = $scope.situation || $scope.defaultSituation;
         $scope.excuseHistory.unshift($scope.currentExcuse);
       }
 
