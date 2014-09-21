@@ -28,7 +28,7 @@
     <!-- excuse display -->
     <div class="jumbotron">
       <p>I would <strong ng-bind="situation || defaultSituation"></strong>, but <strong ng-bind="currentExcuse.text"></strong>.</p>
-      <small ng-bind="currentExcuse.date"></small>
+      <small ng-bind="currentExcuse.date | date : 'medium'"></small>
     </div>
 
     <!-- history display -->
@@ -37,7 +37,7 @@
       <ul class="list-group">
         <li class="list-group-item" ng-repeat="excuse in excuseHistory">
           <p>I would <strong ng-bind="situation || defaultSituation"></strong>, but <strong ng-bind="excuse.text"></strong>.</p>
-          <small ng-bind="excuse.date"></small>
+          <small ng-bind="excuse.date | date : 'medium'"></small>
         </li>
       </ul>
     </div>
