@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('justify', []);
+var app = angular.module('justify', ['ngMaterial']);
 
 // The main controller for Justify
 app.controller('JustifyController', function ($scope) {
