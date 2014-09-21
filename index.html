@@ -27,7 +27,15 @@
 
     <!-- excuse display -->
     <div class="jumbotron">
-      <p>I would <strong ng-bind="situation || defaultSituation"></strong>, but <strong ng-bind="excuse"></strong>.</p>
+      <p>I would <strong ng-bind="situation || defaultSituation"></strong>, but <strong ng-bind="currentExcuse"></strong>.</p>
+    </div>
+
+    <!-- history display -->
+    <div class="panel panel-default">
+      <div class="panel-heading">History</div>
+      <ul class="list-group">
+        <li class="list-group-item" ng-repeat="excuse in excuseHistory">I would <strong ng-bind="situation || defaultSituation"></strong>, but <strong ng-bind="excuse"></strong>.</li>
+      </ul>
     </div>
 
     <!-- scripts -->
