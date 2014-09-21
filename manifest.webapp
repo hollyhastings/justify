@@ -4,5 +4,8 @@
   "developer": {
     "name": "Holly Hastings",
     "url": "http://hollyhastings.me/"
+  },
+  "icons": {
+    "128": "img/icon.png"
   }
 }
