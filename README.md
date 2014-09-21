@@ -34,3 +34,7 @@ Extra
 
 ## Screenshot
 ![Justify screenshot](img/screenshot.png)
+
+## Authors
+- Holly Hastings
+- [Nicolas McCurdy](http://nicolasmccurdy.com/)
