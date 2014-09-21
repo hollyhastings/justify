@@ -3,5 +3,70 @@
     "effort",
     "an in depth knowledge of Latin",
     "me not sleeping"
+  ],
+  "people": [
+    "mom",
+    "dad",
+    "sister",
+    "brother",
+    "son",
+    "daughter",
+    "grandma",
+    "grandpa",
+    "aunt",
+    "uncle",
+    "cousin",
+    "friend",
+    "boyfriend",
+    "girlfriend",
+    "family",
+    "roommate" 
+  ],
+  "pets": [
+    "dog",
+    "cat",
+    "hamster",
+    "bird",
+    "rabbit",
+    "guinea pig",
+    "pet"
+  ],
+  "adjectives": [
+    "busy",
+    "depressed",
+    "dizzy",
+    "sore",
+    "sick",
+    "tired",
+    "exhausted",
+    "drained",
+    "ill"
+  ],
+  "illnesses": [
+    "a cold",
+    "the flu",
+    "food poisoning",
+    "pink eye",
+    "diarrhea",
+    "mono",
+    "a stomach ache",
+    "sinus infection",
+    "a migraine",
+    "a headache",
+    "vomiting",
+    "an ear infection",
+    "a toothache",
+    "a backache"
+  ],
+  "verbs": [
+    "clean",
+    "cook",
+    "jog",
+    "move",
+    "paint",
+    "ski",
+    "pack",
+    "unpack",
+    "work"
   ]
 }
