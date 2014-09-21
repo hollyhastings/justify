@@ -6,28 +6,34 @@
     <title>Justify</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css -->
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   </head>
 
-  <body>
-    <h1>Justify</h1>
+  <body class="container">
+    <div class="page-header">
+      <h1>Justify</h1>
+    </div>
 
     <!-- user options form -->
-    <form class="pure-form pure-form-aligned">
-      <fieldset>
+    <form role="form">
+      <div class="form-group">
         <label for="situation">Situation</label>
-        <input id="situation" type="text" placeholder="do something useful" autofocus ng-model="situation">
-
-        <button class="pure-button pure-button-primary" ng-click="generate()">Generate</button>
-      </fieldset>
+        <input type="text" class="form-control" id="situation" placeholder="do something useful" autofocus ng-model="situation">
+      </div>
+      <button type="submit" class="btn btn-primary" ng-click="generate()">Generate</button>
     </form>
 
+    <br>
+
     <!-- excuse display -->
-    <p>I would <strong ng-bind="situation || defaultSituation"></strong>, but <strong ng-bind="excuse"></strong>.</p>
+    <div class="jumbotron">
+      <p>I would <strong ng-bind="situation || defaultSituation"></strong>, but <strong ng-bind="excuse"></strong>.</p>
+    </div>
 
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
